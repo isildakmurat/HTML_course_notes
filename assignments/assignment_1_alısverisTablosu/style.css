@@ -1,0 +1,65 @@
+table {
+    font-size: 13px;
+    font-family: 'Roboto Flex';
+}
+
+th{
+    padding: 10px;
+    text-align: left;
+}
+
+td{
+    padding: 10px;
+}
+
+
+
+.başlık{
+    background-color: #3f3f3f;
+    color: white
+}
+
+.taban{
+    background-color: #3f3f3f;
+    color: white;
+    text-align:right
+}
+
+.koyu{
+    background-color: #cecece
+}
+
+.açık{
+    background-color: #e8e8e8
+}
+
+.miktar{
+    text-align: center;
+}
+
+.sağa{
+    text-align: right;
+}
+
+button {
+    border: 0;
+    padding: 7px;    
+    color: white;
+}
+
+button i {
+    color: black;
+}
+
+.butonlardiv {
+    margin-top: 3px;
+    margin-left: 190px;
+}
+
+.buton1{
+    background-color: #ef755f;
+    margin-right: 5px;
+}
+.buton2{
+    background-color: #ef755f
+}
