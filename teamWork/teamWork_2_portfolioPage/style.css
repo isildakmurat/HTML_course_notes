@@ -3,29 +3,50 @@ body{
     background-color: darkgrey;
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Lobster', cursive;
+    font-family: 'Audiowide';
 }
 
 .anagövde {
     padding: 20%;
     background-image: url("https://sergiotaco.github.io/html-css-workshop/images/banner.jpg");
     background-size: cover;
+}
+
+.anagövde div {
     text-align: center;
     color: white;
+    font-size: 30px;
 }
 
 #soyad {
     color: red;
 }
 
-.önboşluk{
-    margin-left: 500px;
+.başlık {
+    background-color: black;
 }
 
-.başlık {
-    float: inline-end;
+.başlık1 {
+    color: white;
+    margin: 30px;
+}
+
+.başlık2 dl {
+    text-decoration: none;
+    display: flex;
     color: white;
 }
 
-nav{
-    float: right;
+
+dl {
+    margin: 0;
+    padding: 0;
 }
+
+#araçizgi {
+    font-size: large;
+    color: red;
+}
+
+
