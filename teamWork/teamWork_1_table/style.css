@@ -1,0 +1,23 @@
+th, td{
+    border: 4px ridge;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.anatablo{
+    border: 8px inset;
+}
+
+#foto img {
+    width: 95%;
+    border: 5px solid black;
+}
+
+#foto2 img {
+    width: 100%;
+}
+
+.boldy th {
+    font-style: bold;
+    text-align: center;
+}
