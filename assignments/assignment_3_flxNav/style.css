@@ -1,0 +1,27 @@
+body{
+    display: block;
+}
+
+nav{
+    display: flex;
+}
+
+.left {
+    display: flex;
+    background-color: #bcccdc;
+}
+
+.middle {
+    display: flex;
+    background-color: #ebf7ff;
+    color: black;
+}
+
+.right {
+    display: flex;
+    background-color: #49a6e9;
+}
+
+.right i {
+
+}

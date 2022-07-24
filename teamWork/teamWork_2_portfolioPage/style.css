@@ -5,12 +5,20 @@ body{
     background-repeat: no-repeat;
     font-family: 'Lobster', cursive;
     font-family: 'Audiowide';
+    margin: 0;
+    padding: 0;
+
 }
 
 .anagövde {
     padding: 20%;
     background-image: url("https://sergiotaco.github.io/html-css-workshop/images/banner.jpg");
     background-size: cover;
+    background-color: black;
+}
+
+.anagövde::after{
+    background-color: black;
 }
 
 .anagövde div {
@@ -25,6 +33,10 @@ body{
 
 .başlık {
     background-color: black;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border-bottom: 5px solid red;
 }
 
 .başlık1 {
