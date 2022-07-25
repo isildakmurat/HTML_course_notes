@@ -1,12 +1,40 @@
-.container{
+body{
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+}
+
+#container{
     display: flex;
+    background-color: black;
+    font-family: 'Noto Serif';
+    font-size: 15px;
+    color: white;
+    border-bottom: 3px solid blue;
+    margin-bottom: 0;
 
 }
 
-.container ul {
-    list-style-type: none;
-    display: flex;
-    gap: 10px;
+#container h1 {
+    padding-left: 20px;
+}
 
+a {
+    gap: 13px;
+    text-decoration: none;
+}
+
+#soyad{
+    color: blue;
+}
+
+#mainbody{
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: center;
+    text-align: center;
+    padding: 20%;
+    color: white;
+    font-family: 'Noto Serif';
 }
 
