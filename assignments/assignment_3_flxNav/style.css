@@ -1,9 +1,21 @@
 body{
-    display: block;
+
 }
 
 nav{
     display: flex;
+    align-items: stretch;
+
+}
+
+nav .middle li {
+    text-decoration: none;
+    
+}
+
+nav .right li {
+    
+    
 }
 
 .left {
@@ -15,6 +27,7 @@ nav{
     display: flex;
     background-color: #ebf7ff;
     color: black;
+    border-radius: 30px;
 }
 
 .right {
@@ -22,6 +35,7 @@ nav{
     background-color: #49a6e9;
 }
 
-.right i {
+.right li {
+    display: inline;
 
 }
