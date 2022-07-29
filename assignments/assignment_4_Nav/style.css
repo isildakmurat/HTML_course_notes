@@ -1,10 +1,32 @@
+body {
+    margin: 0;
+}
+
 .menü {
     background-color: brown;
-    width: 10%;
-    height: 800%;
+    width: 20vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -15vw;
+    transition: left 1s;
+}
+
+.menü :hover {
+
+
 }
 
 .menü ul {
     list-style: none;
-    margin-left: -20px;
+    margin-left: -30px;
+}
+
+.menü a {
+    text-decoration: none;
+    color: white;
+}
+
+.menü li :hover {
+    color: rebeccapurple;
 }
