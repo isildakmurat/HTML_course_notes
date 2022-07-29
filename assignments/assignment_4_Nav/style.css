@@ -1,0 +1,10 @@
+.menü {
+    background-color: brown;
+    width: 10%;
+    height: 800%;
+}
+
+.menü ul {
+    list-style: none;
+    margin-left: -20px;
+}
