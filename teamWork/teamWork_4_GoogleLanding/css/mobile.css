@@ -1,0 +1,14 @@
+.box #searching-area  {
+    border-radius: 50px;
+    border: 0.1em solid rgb(32 33 36 / 28%);
+    width: 500px;
+    height: 44px;
+    padding-left: 2.5rem;
+}
+
+.navbarleft a{
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+
+}
